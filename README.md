@@ -34,6 +34,8 @@ G        # go to the last line of the document
 5G       # go to line 5
 fx       # jump to next occurrence of character x
 tx       # jump to before next occurrence of character x
+;        # jump forward to next occurrence of character from f(<x>)
+,        # jump backward to next occurrence of character from (f<x>)
 }        # jump to next paragraph (or function/block, when editing code)
 {        # jump to previous paragraph (or function/block, when editing code)
 zz       # center cursor on screen
